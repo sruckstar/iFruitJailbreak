@@ -33,8 +33,7 @@ The result is indistinguishable from a message sent by the game itself:
 
 ## Installation
 
-1. Build the solution in Visual Studio (Release or Debug).
-2. Copy `iFruit Jailbreak.dll` to your GTA V `scripts/` folder (or reference it from another mod project).
+1. Copy `iFruit Jailbreak.dll` to your GTA V `scripts/` folder
 3. Add `using iFruitJailbreak;` in your script file.
 
 ## Quick Start

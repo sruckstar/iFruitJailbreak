@@ -9,25 +9,6 @@ namespace iFruitJailbreak
 {
     public static class appMail
     {
-        public static void Send(string header, string body, string senderName, int recipientID = -1,
-            string senderIcon = "CHAR_DEFAULT", int headerLabelId = -1, int bodyLabelId = -1)
-        {
-            WriteString(
-                GtaMemory.CharSheetBase + 1 + GtaMemory.NoCharacterSenderId * GtaMemory.CharSheetStride + 3,
-                senderName, 64);
-
-            WriteString(
-                GtaMemory.CharSheet145IconGlobal,
-                string.IsNullOrEmpty(senderIcon) ? "CHAR_DEFAULT" : senderIcon, 64);
-
-            InjectEntry(
-                headerLabelId >= 0 ? headerLabelId : GtaMemory.EmailCustomHeaderStringSlot,
-                bodyLabelId   >= 0 ? bodyLabelId   : GtaMemory.EmailCustomBodyStringSlot,
-                GtaMemory.NoCharacterSenderId,
-                recipientID);
-
-            RaiseEmailFeed(GtaMemory.NoCharacterSenderId, senderName, senderIcon, header, recipientID);
-        }
 
         public static void SendStrID(int headerID, int bodyID, int senderID, int recipientID = -1, string feedSubject = null)
         {

@@ -78,4 +78,4 @@ The game engine then calls its own rendering functions (`func_65` for SMS feed, 
 
 ## SMS Slot Limits
 
-The SMS array holds **165 slots** (indices 0–164). When all slots are occupied `Send()` returns `-1`. Call `SmsInjector.Delete(slotId)` to free a slot manually if needed.
+The SMS array holds **165 slots** (indices 0–164). When all slots are occupied `Send()` returns `-1`. Call `appTextMessage.Delete(slotId)` to free a slot manually if needed.

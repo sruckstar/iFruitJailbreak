@@ -17,7 +17,6 @@ The result is indistinguishable from a message sent by the game itself:
 ## Features
 
 - Send SMS messages from any built-in GTA V character (Franklin, Michael, Trevor)
-- Send SMS messages from a fully custom sender with an arbitrary name and icon
 - Send email notifications with header, body, and sender
 - Inject emails into the per-character inbox (persistent)
 - Delete injected SMS messages by slot ID

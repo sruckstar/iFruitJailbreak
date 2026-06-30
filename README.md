@@ -47,7 +47,7 @@ appTextMessage.Send("Hey, what's up?", 2); //ID 2 - Franklin. See WIKI.
 appMail.SendStrID(33, 33, 10);
 ```
 
-See [DOCUMENTATION.md](DOCUMENTATION.md) for the full API reference.
+See [WIKI](https://github.com/sruckstar/iFruitJailbreak/wiki) for the full API reference.
 
 ## Project Structure
 
